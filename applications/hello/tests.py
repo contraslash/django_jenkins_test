@@ -15,4 +15,4 @@ class HelloTests(TestCase):
 
         self.assertEqual(render_to_string("hello.html"), response.content)
         # This test is going to fail
-        # self.assertEqual(1, 2)
+        self.assertEqual(1, 2)
